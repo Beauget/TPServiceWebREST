@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "lr+b/5rnaQKB0fCxU4ntrMAfw6CvINJhuQ3hDfpvXgsO7PD+CItbsGX6faCh1uz2s+NJj06816q3Vdrr1+tcqA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\beaug\\Desktop\\M1S2\\ArchiDistrib\\RestServiceHotel\\RestServiceHotel\\RESTServiceHotel.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\beaug\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\beaug\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\beaug\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\beaug\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\beaug\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\beaug\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
