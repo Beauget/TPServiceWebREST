@@ -123,12 +123,15 @@ namespace RESTServiceHotel.Controllers
             String listRes = "";
             if (this.agenceChoisis != null)
             {
-               foreach(Offre i in listTemp)
+               foreach(Offre i in listTempGUI)
                 {
                     listRes = listRes + i.idOffre +
                         "=" + i.numChambre.nbLits +
                         "=" + i.numChambre.numChambre +
                         "=" + i.prixTotalOffre +
+                        "=" + i.numChambre.imageURL +
+                        "=" + i.deb +
+                        "=" + i.fin +
                         "$";
                 }
                 Listres = listTemp;
@@ -200,29 +203,42 @@ namespace RESTServiceHotel.Controllers
             return reserv;
         }
 
-      /*  // GET api/<ServiceHotel>/5
-        [HttpGet("{id}")]
-        public string Get(int id)
+        [HttpGet]
+        [Route("/HotelPasCher/getHotel")]
+        public string getHotel()
         {
-            return "value";
+            Create();
+            string i = "";
+            i = i + hotelPasCher.nomHotel +
+               "=" + hotelPasCher.adresseHotel +
+               "=" + hotelPasCher.nbEtoiles +
+               "=" + hotelPasCher.prixNuit;
+            return i;
         }
 
-        // POST api/<ServiceHotel>
-        [HttpPost]
-        public void Post([FromBody] string value)
-        {
-        }
+        /*  // GET api/<ServiceHotel>/5
+          [HttpGet("{id}")]
+          public string Get(int id)
+          {
+              return "value";
+          }
 
-        // PUT api/<ServiceHotel>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
+          // POST api/<ServiceHotel>
+          [HttpPost]
+          public void Post([FromBody] string value)
+          {
+          }
 
-        // DELETE api/<ServiceHotel>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }*/
+          // PUT api/<ServiceHotel>/5
+          [HttpPut("{id}")]
+          public void Put(int id, [FromBody] string value)
+          {
+          }
+
+          // DELETE api/<ServiceHotel>/5
+          [HttpDelete("{id}")]
+          public void Delete(int id)
+          {
+          }*/
     }
 }

@@ -102,12 +102,15 @@ namespace RESTServiceHotel.Controllers
             String listRes = "";
             if (this.agenceChoisis != null)
             {
-                foreach (Offre i in listTemp)
+                foreach (Offre i in listTempGUI)
                 {
                     listRes = listRes + i.idOffre +
                         "=" + i.numChambre.nbLits +
                         "=" + i.numChambre.numChambre +
                         "=" + i.prixTotalOffre +
+                        "=" + i.numChambre.imageURL +
+                        "=" + i.deb +
+                        "=" + i.fin +
                         "$";
                 }
                 Listres = listTemp;
@@ -173,35 +176,50 @@ namespace RESTServiceHotel.Controllers
                     reserv = reserv + res.nomClient +
                         "=" + res.prenomClient +
                         "=" + res.prixTotal +
-                        "=" + res.numCarteBancaire;
+                        "=" + res.numCarteBancaire +
+                        "$";
                 }
             }
             return reserv;
         }
-
-    /*   // GET api/<ServiceHotel>/5
-        [HttpGet("{id}")]
-        public string Get(int id)
+        [HttpGet]
+        [Route("/HotelPlusCher/getHotel")]
+        public string getHotel()
         {
-            return "value";
+            Create();
+            string i = "";
+             i = i + HotelPlusCher.nomHotel +
+                "=" + HotelPlusCher.adresseHotel +
+                "=" + HotelPlusCher.nbEtoiles +
+                "=" + HotelPlusCher.prixNuit;
+            return i;
+            
         }
 
-        // POST api/<ServiceHotel>
-        [HttpPost]
-        public void Post([FromBody] string value)
-        {
-        }
 
-        // PUT api/<ServiceHotel>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
+        /*   // GET api/<ServiceHotel>/5
+            [HttpGet("{id}")]
+            public string Get(int id)
+            {
+                return "value";
+            }
 
-        // DELETE api/<ServiceHotel>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }*/
+            // POST api/<ServiceHotel>
+            [HttpPost]
+            public void Post([FromBody] string value)
+            {
+            }
+
+            // PUT api/<ServiceHotel>/5
+            [HttpPut("{id}")]
+            public void Put(int id, [FromBody] string value)
+            {
+            }
+
+            // DELETE api/<ServiceHotel>/5
+            [HttpDelete("{id}")]
+            public void Delete(int id)
+            {
+            }*/
     }
 }
