@@ -1,0 +1,16 @@
+C:\Users\beaug\Desktop\ComparateurClient\ComparateurClient\bin\Debug\ComparateurClient.exe.config
+C:\Users\beaug\Desktop\ComparateurClient\ComparateurClient\bin\Debug\ComparateurClient.exe
+C:\Users\beaug\Desktop\ComparateurClient\ComparateurClient\bin\Debug\ComparateurClient.pdb
+C:\Users\beaug\Desktop\ComparateurClient\ComparateurClient\obj\Debug\ComparateurClient.csprojAssemblyReference.cache
+C:\Users\beaug\Desktop\ComparateurClient\ComparateurClient\obj\Debug\ComparateurClient.csproj.CoreCompileInputs.cache
+C:\Users\beaug\Desktop\ComparateurClient\ComparateurClient\obj\Debug\ComparateurClient.exe
+C:\Users\beaug\Desktop\ComparateurClient\ComparateurClient\obj\Debug\ComparateurClient.pdb
+C:\Users\beaug\Desktop\M1S2\ArchiDistrib\RestComparateur\ComparateurClient\ComparateurClient\bin\Debug\ComparateurClient.exe.config
+C:\Users\beaug\Desktop\M1S2\ArchiDistrib\RestComparateur\ComparateurClient\ComparateurClient\bin\Debug\ComparateurClient.exe
+C:\Users\beaug\Desktop\M1S2\ArchiDistrib\RestComparateur\ComparateurClient\ComparateurClient\bin\Debug\ComparateurClient.pdb
+C:\Users\beaug\Desktop\M1S2\ArchiDistrib\RestComparateur\ComparateurClient\ComparateurClient\obj\Debug\ComparateurClient.csprojAssemblyReference.cache
+C:\Users\beaug\Desktop\M1S2\ArchiDistrib\RestComparateur\ComparateurClient\ComparateurClient\obj\Debug\ComparateurClient.Form1.resources
+C:\Users\beaug\Desktop\M1S2\ArchiDistrib\RestComparateur\ComparateurClient\ComparateurClient\obj\Debug\ComparateurClient.csproj.GenerateResource.cache
+C:\Users\beaug\Desktop\M1S2\ArchiDistrib\RestComparateur\ComparateurClient\ComparateurClient\obj\Debug\ComparateurClient.csproj.CoreCompileInputs.cache
+C:\Users\beaug\Desktop\M1S2\ArchiDistrib\RestComparateur\ComparateurClient\ComparateurClient\obj\Debug\ComparateurClient.exe
+C:\Users\beaug\Desktop\M1S2\ArchiDistrib\RestComparateur\ComparateurClient\ComparateurClient\obj\Debug\ComparateurClient.pdb
