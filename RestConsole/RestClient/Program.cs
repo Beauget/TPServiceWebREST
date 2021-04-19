@@ -74,7 +74,7 @@ namespace RestClient
 
                     while (true)
                     {
-                       Console.Clear();
+                        Console.Clear();
 
                         do
                         {
@@ -87,12 +87,12 @@ namespace RestClient
                             Console.Write("\n ===> Votre choix : ");
                             choixOption = Console.ReadLine();
 
-                            if (!choixOption.Equals("0") && !choixOption.Equals("1") && !choixOption.Equals("2"))
+                            if (!choixOption.Equals("0") && !choixOption.Equals("1") && !choixOption.Equals("2") && !choixOption.Equals("3"))
                             {
                                 Console.Clear();
                                 Console.WriteLine("\n Erreur : Choisir entre '0', '1' ou '2'");
                             }
-                        } while (!choixOption.Equals("0") && !choixOption.Equals("1") && !choixOption.Equals("2"));
+                        } while (!choixOption.Equals("0") && !choixOption.Equals("1") && !choixOption.Equals("2") && !choixOption.Equals("3"));
 
                         if (choixOption.Equals("0"))
                         {
@@ -100,7 +100,7 @@ namespace RestClient
                             break;
                         }
 
-                        else if(choixOption.Equals("1"))
+                        else if (choixOption.Equals("1"))
                         {
                             Console.Clear();
                             Console.WriteLine("\n ===== Service : Consultation des offres =====\n");
@@ -130,9 +130,9 @@ namespace RestClient
                                 dD = dF;
                                 dF = tmp;
                             }
-                            int nbPersonnes  =  Convert.ToInt32(Console.ReadLine());
+                            int nbPersonnes = Convert.ToInt32(Console.ReadLine());
 
-                            string offres = GetReleases(url + "HotelPasCher/AfficherOffreDisponible?login="+login+"&password="+password+"&dateArrive="+dateD+"&dateDepart="+dateF+"&nbPersonne="+nbPersonnes);
+                            string offres = GetReleases(url + "HotelPasCher/AfficherOffreDisponible?login=" + login + "&password=" + password + "&dateArrive=" + dateD + "&dateDepart=" + dateF + "&nbPersonne=" + nbPersonnes);
                             string[] resOffres = offres.Split('$');
 
                             if (offres == null)
@@ -140,7 +140,7 @@ namespace RestClient
                                 Console.WriteLine("liste vide : problème requête");
                             }
 
-                            for (int i = 0; i < resOffres.Length -1; i++)
+                            for (int i = 0; i < resOffres.Length - 1; i++)
                             {
                                 string[] offreCourant = resOffres[i].Split('=');
                                 Console.WriteLine("      - Identifiant           : " + offreCourant[0]);
@@ -196,12 +196,8 @@ namespace RestClient
                             for (int i = 0; i < resOffres.Length - 1; i++)
                             {
                                 string[] offreCourant = resOffres[i].Split('=');
-                                Form1 form = new Form1(login,password,resOffres[i], offreCourant[4], resOffres[i],"HotelPasCher");
+                                Form1 form = new Form1(login, password, resOffres[i], offreCourant[4], resOffres[i], "HotelPasCher");
                                 form.ShowDialog();
-                              /*  Console.WriteLine("      - Identifiant           : " + offreCourant[0]);
-                                Console.WriteLine("      - Numéro de chambre     : " + offreCourant[1]);
-                                Console.WriteLine("      - Nombre de lit         : " + offreCourant[2]);
-                                Console.WriteLine("      - Prix de l'offre       : " + offreCourant[3] + "\n");*/
                             }
 
                             Console.Write("\n Appuyer sur une touche pour revenir en arrière...");
@@ -260,12 +256,12 @@ namespace RestClient
                             Console.Write("\n ===> Votre choix : ");
                             choixOption = Console.ReadLine();
 
-                            if (!choixOption.Equals("0") && !choixOption.Equals("1") && !choixOption.Equals("2"))
+                            if (!choixOption.Equals("0") && !choixOption.Equals("1") && !choixOption.Equals("2") && !choixOption.Equals("3"))
                             {
                                 Console.Clear();
                                 Console.WriteLine("\n Erreur : Choisir entre '0', '1' ou '2'");
                             }
-                        } while (!choixOption.Equals("0") && !choixOption.Equals("1") && !choixOption.Equals("2"));
+                        } while (!choixOption.Equals("0") && !choixOption.Equals("1") && !choixOption.Equals("2") && !choixOption.Equals("3"));
 
                         if (choixOption.Equals("0"))
                         {
@@ -368,13 +364,11 @@ namespace RestClient
 
                             for (int i = 0; i < resOffres.Length - 1; i++)
                             {
-                                string[] offreCourant = resOffres[i].Split('=');
-                                Form1 form = new Form1(login, password, resOffres[i], offreCourant[4], resOffres[i], "HotelPasCher");
-                                form.ShowDialog();
-                                /*  Console.WriteLine("      - Identifiant           : " + offreCourant[0]);
-                                  Console.WriteLine("      - Numéro de chambre     : " + offreCourant[1]);
-                                  Console.WriteLine("      - Nombre de lit         : " + offreCourant[2]);
-                                  Console.WriteLine("      - Prix de l'offre       : " + offreCourant[3] + "\n");*/
+                               
+                                    string[] offreCourant = resOffres[i].Split('=');
+                                    Form1 form = new Form1(login, password, resOffres[i], offreCourant[4], resOffres[i], "HotelPasCher");
+                                    form.ShowDialog();
+                                
                             }
 
                             Console.Write("\n Appuyer sur une touche pour revenir en arrière...");
