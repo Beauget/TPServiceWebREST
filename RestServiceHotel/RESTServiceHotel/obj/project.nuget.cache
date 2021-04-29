@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+O6zUwcSizBYBpjjtrSzHl7+swM0qca/3CnvmxRGbajlLMHXf83lqT9snoG5EPw0OpI0QltlPxVLLnLf9HXgFg==",
+  "dgSpecHash": "grPkyp1L322zIy1X/L48j3U/IgkXwQO33to516L5q9XYL/vUZsxPbyhNciEs74ayEfR6RCPTJpD0wnhGFTJKmw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\beaug\\Desktop\\M1S2\\ArchiDistrib\\RestServiceHotel\\RESTServiceHotel\\RESTServiceHotel.csproj",
+  "projectFilePath": "C:\\Users\\beaug\\Desktop\\M1S2\\ArchiDistrib\\GitTPRest\\TPServiceWebREST\\RestServiceHotel\\RESTServiceHotel\\RESTServiceHotel.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\beaug\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\beaug\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

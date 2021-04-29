@@ -199,11 +199,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\beaug\\Desktop\\M1S2\\ArchiDistrib\\RestComparateur\\ComparateurServeur\\Comparateur\\Comparateur.csproj",
+      "projectUniqueName": "C:\\Users\\beaug\\Desktop\\M1S2\\ArchiDistrib\\GitTPRest\\TPServiceWebREST\\RestComparateur\\ComparateurServeur\\Comparateur\\Comparateur.csproj",
       "projectName": "Comparateur",
-      "projectPath": "C:\\Users\\beaug\\Desktop\\M1S2\\ArchiDistrib\\RestComparateur\\ComparateurServeur\\Comparateur\\Comparateur.csproj",
+      "projectPath": "C:\\Users\\beaug\\Desktop\\M1S2\\ArchiDistrib\\GitTPRest\\TPServiceWebREST\\RestComparateur\\ComparateurServeur\\Comparateur\\Comparateur.csproj",
       "packagesPath": "C:\\Users\\beaug\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\beaug\\Desktop\\M1S2\\ArchiDistrib\\RestComparateur\\ComparateurServeur\\Comparateur\\obj\\",
+      "outputPath": "C:\\Users\\beaug\\Desktop\\M1S2\\ArchiDistrib\\GitTPRest\\TPServiceWebREST\\RestComparateur\\ComparateurServeur\\Comparateur\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

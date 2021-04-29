@@ -5,3 +5,10 @@ C:\Users\beaug\Desktop\M1S2\ArchiDistrib\RestConsole\RestClient\bin\Debug\RestCl
 C:\Users\beaug\Desktop\M1S2\ArchiDistrib\RestConsole\RestClient\bin\Debug\RestClient.pdb
 C:\Users\beaug\Desktop\M1S2\ArchiDistrib\RestConsole\RestClient\obj\Debug\RestClient.exe
 C:\Users\beaug\Desktop\M1S2\ArchiDistrib\RestConsole\RestClient\obj\Debug\RestClient.pdb
+C:\Users\beaug\Desktop\M1S2\ArchiDistrib\GitTPRest\TPServiceWebREST\RestConsole\RestClient\bin\Debug\RestClient.exe.config
+C:\Users\beaug\Desktop\M1S2\ArchiDistrib\GitTPRest\TPServiceWebREST\RestConsole\RestClient\bin\Debug\RestClient.exe
+C:\Users\beaug\Desktop\M1S2\ArchiDistrib\GitTPRest\TPServiceWebREST\RestConsole\RestClient\bin\Debug\RestClient.pdb
+C:\Users\beaug\Desktop\M1S2\ArchiDistrib\GitTPRest\TPServiceWebREST\RestConsole\RestClient\obj\Debug\RestClient.csprojAssemblyReference.cache
+C:\Users\beaug\Desktop\M1S2\ArchiDistrib\GitTPRest\TPServiceWebREST\RestConsole\RestClient\obj\Debug\RestClient.csproj.CoreCompileInputs.cache
+C:\Users\beaug\Desktop\M1S2\ArchiDistrib\GitTPRest\TPServiceWebREST\RestConsole\RestClient\obj\Debug\RestClient.exe
+C:\Users\beaug\Desktop\M1S2\ArchiDistrib\GitTPRest\TPServiceWebREST\RestConsole\RestClient\obj\Debug\RestClient.pdb

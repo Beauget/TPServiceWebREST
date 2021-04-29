@@ -375,7 +375,7 @@ namespace RestClient
                             Console.ReadKey();
                             //AJOUTEZ SUITE OPTION HOTEL2
                         }
-                        else if(choixOption.Equals("2"))
+                        else if(choixOption.Equals("3"))
                         {
                             Console.Clear();
                             Console.WriteLine("\n ===== Service : Réservation d'une offre partenaire =====\n");
@@ -408,11 +408,6 @@ namespace RestClient
                         }
                     }
 
-                }
-                else if(choix.Equals("3"))
-                {
-                    Console.Clear();
-                    break;
                 }
             }
         }

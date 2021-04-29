@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\beaug\\Desktop\\M1S2\\ArchiDistrib\\RestServiceHotel\\RESTServiceHotel\\RESTServiceHotel.csproj": {}
+    "C:\\Users\\beaug\\Desktop\\M1S2\\ArchiDistrib\\GitTPRest\\TPServiceWebREST\\RestServiceHotel\\RESTServiceHotel\\RESTServiceHotel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\beaug\\Desktop\\M1S2\\ArchiDistrib\\RestServiceHotel\\RESTServiceHotel\\RESTServiceHotel.csproj": {
+    "C:\\Users\\beaug\\Desktop\\M1S2\\ArchiDistrib\\GitTPRest\\TPServiceWebREST\\RestServiceHotel\\RESTServiceHotel\\RESTServiceHotel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\beaug\\Desktop\\M1S2\\ArchiDistrib\\RestServiceHotel\\RESTServiceHotel\\RESTServiceHotel.csproj",
+        "projectUniqueName": "C:\\Users\\beaug\\Desktop\\M1S2\\ArchiDistrib\\GitTPRest\\TPServiceWebREST\\RestServiceHotel\\RESTServiceHotel\\RESTServiceHotel.csproj",
         "projectName": "RESTServiceHotel",
-        "projectPath": "C:\\Users\\beaug\\Desktop\\M1S2\\ArchiDistrib\\RestServiceHotel\\RESTServiceHotel\\RESTServiceHotel.csproj",
+        "projectPath": "C:\\Users\\beaug\\Desktop\\M1S2\\ArchiDistrib\\GitTPRest\\TPServiceWebREST\\RestServiceHotel\\RESTServiceHotel\\RESTServiceHotel.csproj",
         "packagesPath": "C:\\Users\\beaug\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\beaug\\Desktop\\M1S2\\ArchiDistrib\\RestServiceHotel\\RESTServiceHotel\\obj\\",
+        "outputPath": "C:\\Users\\beaug\\Desktop\\M1S2\\ArchiDistrib\\GitTPRest\\TPServiceWebREST\\RestServiceHotel\\RESTServiceHotel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
